@@ -21,7 +21,7 @@ public class UserFactory {
 	
 	public static User createCustomUserClientUser(Long id, String username) {		
 		User user = new User(id, "Maria", username, "98888888", LocalDate.parse("2001-05-25") ,"$2a$10$N7SkKCa3r17ga.i.dF9iy.BFUBL2n3b6Z1CWSZWi/qy7ABq/E6VpO");
-		user.addRole(new Role(2L,"ROLE_ADMIN"));
+		user.addRole(new Role(2L,"ROLE_CLIENT"));
 		return user;
 		}
 
